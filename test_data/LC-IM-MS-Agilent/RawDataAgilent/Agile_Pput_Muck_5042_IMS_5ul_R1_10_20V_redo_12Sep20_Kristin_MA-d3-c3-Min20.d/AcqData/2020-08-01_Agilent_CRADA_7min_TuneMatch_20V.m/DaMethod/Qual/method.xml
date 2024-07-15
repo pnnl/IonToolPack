@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MethodInfo>
+  <!--If this version is updated, ensure version number for m_AutomationMethodVersion in MethodDAQualRW -->
+  <Version>3.0</Version>
+  <!--Information for Data Analysis method information-->
+  <AutomationOption>
+  </AutomationOption>
+  <MethodOption>Copy</MethodOption>
+  <ChangeToMethod>
+  </ChangeToMethod>
+  <MethodMessage>D:\MassHunter\Methods\default.m</MethodMessage>
+  <MethodCopiedAt>
+  </MethodCopiedAt>
+</MethodInfo>

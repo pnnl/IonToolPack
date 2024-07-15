@@ -1,0 +1,6 @@
+h5py==3.8.0
+hdf5plugin==4.1.1
+pillow==9.5.0
+matplotlib==3.7.1
+scikit-learn==1.2.2
+pandas==2.0.2

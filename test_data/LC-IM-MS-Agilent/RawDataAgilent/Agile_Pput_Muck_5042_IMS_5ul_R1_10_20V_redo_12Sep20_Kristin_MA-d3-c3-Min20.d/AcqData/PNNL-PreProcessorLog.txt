@@ -1,0 +1,6 @@
+-------------------------- 9/15/2020 12:52:38 PM
+PNNL PreProcessor v2020.07.24
+Moving average smoothing number of points: drift 3, chrom 3, 
+Signal intensity lower threshold (counts): 20
+9/15/2020 1:04:09 PM
+Total time 691.1088458 seconds

@@ -1,0 +1,14 @@
+9/15/2020 9:38:39 AM	Parameter validation warnings:
+9/15/2020 9:38:39 AM		Can't calculate both A, To for negative ions - reference m/z values are too close to each other.  They should be > 500 m/z apart.
+9/15/2020 9:38:39 AM	Reprocessing started.
+9/15/2020 9:38:40 AM		Recentroiding requested
+9/15/2020 9:38:40 AM			Abs threshold = 100 (5 MS/MS)
+9/15/2020 9:38:40 AM			Pct threshold = 0.010 (0.010 MS/MS)
+9/15/2020 9:38:40 AM			Peak min valley = 0.70
+9/15/2020 9:38:40 AM		Recalibration requested
+9/15/2020 9:38:40 AM			Negative ion reference m/z values = 249.975600, 560.873000
+9/15/2020 9:38:40 AM			m/z tolerance (ppm) = 150
+9/15/2020 9:38:40 AM			Minimum abundance = 250
+9/15/2020 9:38:40 AM			Peak min valley = 0.70
+9/15/2020 9:38:44 AM			IRM statistics: 440 scans	103 missing some ions	4 missing all ions
+9/15/2020 9:38:44 AM	Reprocessing finished.

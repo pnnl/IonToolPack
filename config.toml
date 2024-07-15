@@ -1,0 +1,29 @@
+# Configuration file
+
+# For overlaid figures, Half Window size of the view (+- center):
+MZVIEWHALFWINDOW = 0.7
+RTVIEWHALFWINDOW = 1.5
+ATVIEWHALFWINDOW = 2
+
+# Mass tolerance for chromatogram extraction, Half Window m/z value (+- center or m/z target):
+MZXICHALFWINDOW = 0.01
+
+# Error thresholds, absolute value:
+MZERRORPPM = 15
+RTERROR = 0.3
+ATERROR = 0.1
+ABUNDANCEERROR = 30 # Percentage absolute error, a percentage of the mean of the ion abundance applied as a threshold to report QC ions outside tolerances
+
+AutoTrackedIonsTopN = 4 # Number of auto-tracked ions to detect per sample group
+MinIntensityPresencePercentage = 80 # Intensity threshold presence/absence 
+
+MinMzDistDetectCentroidMS = 0.0005 # If distance between 2 consecutive points from the max intensity peak is smaller than this value then it is considered profile mode spectrum
+
+FigureLegendMaxNumberLines = 15
+
+# MZA conversion:
+MinIntensityMza = 20
+
+# time-vs-mz images:
+TimeVsMzImageMinIntensityPercentage = 10
+TimeVsMzImageMaxIntensityCeilingPercentage = 70

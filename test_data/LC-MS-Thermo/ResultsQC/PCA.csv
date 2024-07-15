@@ -1,0 +1,12 @@
+MSRUN,LABELSAMPLEGROUP,MSRUNID,PC1,PC2,MZAPATH
+Blank_Alexa_01_HILIC_NEG_13Feb23_Olympic_WBEH-8671_r1,Blank,1,-857.532,812.638,E:\IonToolPack\code\test_data\LC-MS-Thermo\DataMza\Blank_Alexa_01_HILIC_NEG_13Feb23_Olympic_WBEH-8671_r1
+Blank_Alexa_02_HILIC_NEG_13Feb23_Olympic_WBEH-8671_r2,Blank,2,-787.035,546.065,E:\IonToolPack\code\test_data\LC-MS-Thermo\DataMza\Blank_Alexa_02_HILIC_NEG_13Feb23_Olympic_WBEH-8671_r2
+Blank_Alexa_03_HILIC_NEG_13Feb23_Olympic_WBEH-8671,Blank,3,-712.127,615.449,E:\IonToolPack\code\test_data\LC-MS-Thermo\DataMza\Blank_Alexa_03_HILIC_NEG_13Feb23_Olympic_WBEH-8671
+QC_WS_Metab_Alexa_01_HILIC_NEG_13Feb23_Olympic_WBEH-8671,QC,4,1090.714,195.23,E:\IonToolPack\code\test_data\LC-MS-Thermo\DataMza\QC_WS_Metab_Alexa_01_HILIC_NEG_13Feb23_Olympic_WBEH-8671
+QC_WS_Metab_Alexa_02_HILIC_NEG_13Feb23_Olympic_WBEH-8671,QC,5,1194.915,-25.533,E:\IonToolPack\code\test_data\LC-MS-Thermo\DataMza\QC_WS_Metab_Alexa_02_HILIC_NEG_13Feb23_Olympic_WBEH-8671
+QC_WS_Metab_Alexa_03_HILIC_NEG_13Feb23_Olympic_WBEH-8671,QC,6,1191.302,-57.463,E:\IonToolPack\code\test_data\LC-MS-Thermo\DataMza\QC_WS_Metab_Alexa_03_HILIC_NEG_13Feb23_Olympic_WBEH-8671
+QC_WS_Metab_Alexa_04_HILIC_NEG_13Feb23_Olympic_WBEH-8671,QC,7,988.113,-154.313,E:\IonToolPack\code\test_data\LC-MS-Thermo\DataMza\QC_WS_Metab_Alexa_04_HILIC_NEG_13Feb23_Olympic_WBEH-8671
+QC_WS_Metab_Alexa_05_HILIC_NEG_13Feb23_Olympic_WBEH-8671,QC,8,922.48,-182.305,E:\IonToolPack\code\test_data\LC-MS-Thermo\DataMza\QC_WS_Metab_Alexa_05_HILIC_NEG_13Feb23_Olympic_WBEH-8671
+51899Alexa_TC_TVPop_ProMet_P_01_LC_M_HILIC_NEG_13Feb23_Olympic_WBEH-8671,Sample,9,-1040.307,-665.471,E:\IonToolPack\code\test_data\LC-MS-Thermo\DataMza\51899Alexa_TC_TVPop_ProMet_P_01_LC_M_HILIC_NEG_13Feb23_Olympic_WBEH-8671
+51899Alexa_TC_TVPop_ProMet_P_02_LC_M_HILIC_NEG_13Feb23_Olympic_WBEH-8671,Sample,10,-989.576,-530.003,E:\IonToolPack\code\test_data\LC-MS-Thermo\DataMza\51899Alexa_TC_TVPop_ProMet_P_02_LC_M_HILIC_NEG_13Feb23_Olympic_WBEH-8671
+51899Alexa_TC_TVPop_ProMet_P_03_LC_M_HILIC_NEG_13Feb23_Olympic_WBEH-8671,Sample,11,-1000.946,-554.293,E:\IonToolPack\code\test_data\LC-MS-Thermo\DataMza\51899Alexa_TC_TVPop_ProMet_P_03_LC_M_HILIC_NEG_13Feb23_Olympic_WBEH-8671

@@ -1,0 +1,38 @@
+<MultiSamplerMethod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ModuleType="G7167B" xsdName="MultiSamplerMethod.xsd" schemaVersion="1.0.0" schemaSI="3" ModuleOptions="">
+  <ConfigurationXml>&lt;MultiSamplerConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsdName="MultiSamplerConfig.xsd" schemaVersion="1.0.0" schemaSI="3"&gt;&lt;DisplayName&gt;Multisampler&lt;/DisplayName&gt;&lt;SerialNumber&gt;DEBAQ00810&lt;/SerialNumber&gt;&lt;ModuleType&gt;G7167B&lt;/ModuleType&gt;&lt;ModuleDisplayType&gt;G7167B&lt;/ModuleDisplayType&gt;&lt;ConnectionInfo&gt;&lt;ConnectionType&gt;ConnectionType_IPAddress&lt;/ConnectionType&gt;&lt;IPAddress&gt;192.168.254.11&lt;/IPAddress&gt;&lt;/ConnectionInfo&gt;&lt;LANConfig&gt;IsCAP&lt;/LANConfig&gt;&lt;FirmwareRevision&gt;D.07.22 [0031]&lt;/FirmwareRevision&gt;&lt;IsThermostatInstalled&gt;true&lt;/IsThermostatInstalled&gt;&lt;IsMultiWashInstalled&gt;false&lt;/IsMultiWashInstalled&gt;&lt;Hotel&gt;&lt;Drawers&gt;&lt;Drawer&gt;&lt;Height&gt;2&lt;/Height&gt;&lt;LogicalFloorLevel&gt;1&lt;/LogicalFloorLevel&gt;&lt;PhysicalDrawerLevel&gt;1&lt;/PhysicalDrawerLevel&gt;&lt;Type&gt;MultiSamplerDrawerTypeEnum_Regular&lt;/Type&gt;&lt;/Drawer&gt;&lt;Drawer&gt;&lt;Height&gt;2&lt;/Height&gt;&lt;LogicalFloorLevel&gt;2&lt;/LogicalFloorLevel&gt;&lt;PhysicalDrawerLevel&gt;3&lt;/PhysicalDrawerLevel&gt;&lt;Type&gt;MultiSamplerDrawerTypeEnum_Lid&lt;/Type&gt;&lt;/Drawer&gt;&lt;Drawer&gt;&lt;Height&gt;2&lt;/Height&gt;&lt;LogicalFloorLevel&gt;3&lt;/LogicalFloorLevel&gt;&lt;PhysicalDrawerLevel&gt;5&lt;/PhysicalDrawerLevel&gt;&lt;Type&gt;MultiSamplerDrawerTypeEnum_Lid&lt;/Type&gt;&lt;/Drawer&gt;&lt;Drawer&gt;&lt;Height&gt;2&lt;/Height&gt;&lt;LogicalFloorLevel&gt;4&lt;/LogicalFloorLevel&gt;&lt;PhysicalDrawerLevel&gt;7&lt;/PhysicalDrawerLevel&gt;&lt;Type&gt;MultiSamplerDrawerTypeEnum_Lid&lt;/Type&gt;&lt;/Drawer&gt;&lt;/Drawers&gt;&lt;/Hotel&gt;&lt;IsDualNeedleInstalled&gt;false&lt;/IsDualNeedleInstalled&gt;&lt;NeedleRight&gt;&lt;Syringe&gt;&lt;ID&gt;G4267-60042&lt;/ID&gt;&lt;DisplayName&gt;40 µL Analytical Head&lt;/DisplayName&gt;&lt;InjectionVolume&gt;40&lt;/InjectionVolume&gt;&lt;Diameter&gt;2&lt;/Diameter&gt;&lt;/Syringe&gt;&lt;SeatCapillary&gt;&lt;ID&gt;G4267-87012&lt;/ID&gt;&lt;DisplayName&gt;Seat assembly 0.12 mm 1290 Infinity LC&lt;/DisplayName&gt;&lt;InjectionVolume&gt;0&lt;/InjectionVolume&gt;&lt;PhysicalVolume&gt;1.5&lt;/PhysicalVolume&gt;&lt;/SeatCapillary&gt;&lt;LoopCapillary&gt;&lt;ID&gt;G4267-60300&lt;/ID&gt;&lt;DisplayName&gt;Sample Loop-Flex 20 µL right&lt;/DisplayName&gt;&lt;InjectionVolume&gt;20&lt;/InjectionVolume&gt;&lt;PhysicalVolume&gt;33&lt;/PhysicalVolume&gt;&lt;/LoopCapillary&gt;&lt;/NeedleRight&gt;&lt;RefVialArray&gt;&lt;ID&gt;G4267-40071&lt;/ID&gt;&lt;DisplayName&gt;Reference vial rack (5)&lt;/DisplayName&gt;&lt;ContainerXml&gt;&amp;lt;?xml version="1.0" encoding="utf-8"?&amp;gt;&amp;lt;SampleContainer xsi:noNamespaceSchemaLocation="SampleContainer.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.0.0.0"&amp;gt;	&amp;lt;Common&amp;gt;		&amp;lt;Identifier&amp;gt;{661CF8C4-1617-187F-1D1C-4CF71C918904}&amp;lt;/Identifier&amp;gt;		&amp;lt;DisplayName&amp;gt;G4267-40071 - Reference vial rack (5)&amp;lt;/DisplayName&amp;gt;		&amp;lt;NumLocation&amp;gt;5&amp;lt;/NumLocation&amp;gt;		&amp;lt;ReadOnly&amp;gt;true&amp;lt;/ReadOnly&amp;gt;		&amp;lt;Details/&amp;gt;		&amp;lt;IsPlate&amp;gt;false&amp;lt;/IsPlate&amp;gt;	&amp;lt;/Common&amp;gt;	&amp;lt;Geometry&amp;gt;		&amp;lt;CartesianContainer&amp;gt;			&amp;lt;Units&amp;gt;				&amp;lt;Unit&amp;gt;					&amp;lt;Identifier&amp;gt;1&amp;lt;/Identifier&amp;gt;					&amp;lt;RowOffset&amp;gt;12.39&amp;lt;/RowOffset&amp;gt;					&amp;lt;ColumnOffset&amp;gt;11.85&amp;lt;/ColumnOffset&amp;gt;					&amp;lt;RowDistance&amp;gt;16.98&amp;lt;/RowDistance&amp;gt;					&amp;lt;ColumnDistance&amp;gt;16.98&amp;lt;/ColumnDistance&amp;gt;					&amp;lt;ColumnShift&amp;gt;0&amp;lt;/ColumnShift&amp;gt;					&amp;lt;NumRows&amp;gt;5&amp;lt;/NumRows&amp;gt;					&amp;lt;NumCols&amp;gt;1&amp;lt;/NumCols&amp;gt;					&amp;lt;XWellDiameter&amp;gt;9.2&amp;lt;/XWellDiameter&amp;gt;					&amp;lt;YWellDiameter&amp;gt;9.2&amp;lt;/YWellDiameter&amp;gt;					&amp;lt;WellBottomSizeFactor&amp;gt;1&amp;lt;/WellBottomSizeFactor&amp;gt;					&amp;lt;WellIsSquare&amp;gt;false&amp;lt;/WellIsSquare&amp;gt;					&amp;lt;WellHeight&amp;gt;34.0&amp;lt;/WellHeight&amp;gt;					&amp;lt;WellDepth&amp;gt;29&amp;lt;/WellDepth&amp;gt;					&amp;lt;WellVolume&amp;gt;1500.0&amp;lt;/WellVolume&amp;gt;					&amp;lt;IsSealed&amp;gt;false&amp;lt;/IsSealed&amp;gt;					&amp;lt;AddressingBlockID&amp;gt;1&amp;lt;/AddressingBlockID&amp;gt;				&amp;lt;/Unit&amp;gt;			&amp;lt;/Units&amp;gt;			&amp;lt;XSize&amp;gt;22.35&amp;lt;/XSize&amp;gt;			&amp;lt;YSize&amp;gt;90.0&amp;lt;/YSize&amp;gt;		&amp;lt;/CartesianContainer&amp;gt;	&amp;lt;/Geometry&amp;gt;	&amp;lt;Addressing&amp;gt;		&amp;lt;AddressBlocks&amp;gt;			&amp;lt;AddressBlock&amp;gt;				&amp;lt;ID&amp;gt;1&amp;lt;/ID&amp;gt;				&amp;lt;NumLocations&amp;gt;5&amp;lt;/NumLocations&amp;gt;				&amp;lt;LinearAddressing&amp;gt;					&amp;lt;Start&amp;gt;1&amp;lt;/Start&amp;gt;					&amp;lt;DistributionPattern&amp;gt;DistributionPattern_Column_Linear&amp;lt;/DistributionPattern&amp;gt;					&amp;lt;Origin11&amp;gt;Origin11_LeftFrontEdge&amp;lt;/Origin11&amp;gt;				&amp;lt;/LinearAddressing&amp;gt;			&amp;lt;/AddressBlock&amp;gt;		&amp;lt;/AddressBlocks&amp;gt;	&amp;lt;/Addressing&amp;gt;&amp;lt;/SampleContainer&amp;gt;&lt;/ContainerXml&gt;&lt;/RefVialArray&gt;&lt;BypassCapillary&gt;None&lt;/BypassCapillary&gt;&lt;ThermostatControlledBy&gt;MultiSamplerThermostatControlledBy_Control&lt;/ThermostatControlledBy&gt;&lt;ThermostatConfig&gt;&lt;Type&gt;20448&lt;/Type&gt;&lt;SerialNumber&gt;DEBAT02122&lt;/SerialNumber&gt;&lt;Revision&gt;30&lt;/Revision&gt;&lt;/ThermostatConfig&gt;&lt;/MultiSamplerConfig&gt;</ConfigurationXml>
+  <Timetable />
+  <StopTime>
+    <StopTimeMode>StopTime_NoLimit</StopTimeMode>
+  </StopTime>
+  <PostTime>
+    <PostTimeMode>PostTime_Off</PostTimeMode>
+  </PostTime>
+  <SamplingSpeed>
+    <DrawSpeed>100</DrawSpeed>
+    <EjectSpeed>400</EjectSpeed>
+    <WaitTimeAfterDrawing>1.2</WaitTimeAfterDrawing>
+  </SamplingSpeed>
+  <Injection>
+    <NeedleWashMode>MultiSamplerNeedleWashModeEnum_StandardWash</NeedleWashMode>
+    <InjectionVolume>5</InjectionVolume>
+    <StandardNeedleWash>
+      <NeedleWashLocation>MultiSamplerNeedleWashLocationEnum_FlushPort</NeedleWashLocation>
+      <WashTime>3</WashTime>
+    </StandardNeedleWash>
+  </Injection>
+  <HighThroughput>
+    <ValveToBypassAfterInjectionEnabled>false</ValveToBypassAfterInjectionEnabled>
+    <SampleFlushOutFactor>5</SampleFlushOutFactor>
+    <OverlappedInjection>
+      <OverlapEnabled>false</OverlapEnabled>
+      <OverlapStartMode>MultiSamplerOverlapStartModeEnum_AfterPeriodOfTime</OverlapStartMode>
+      <OverlapStartModeValid>false</OverlapStartModeValid>
+    </OverlappedInjection>
+    <SampleFlushOutFactorValid>true</SampleFlushOutFactorValid>
+  </HighThroughput>
+  <DrawPosition>
+    <DrawPositionOffset>0</DrawPositionOffset>
+    <DrawPositionDetectionEnabled>false</DrawPositionDetectionEnabled>
+  </DrawPosition>
+  <HighThroughputValid>true</HighThroughputValid>
+</MultiSamplerMethod>

@@ -1,0 +1,37 @@
+<ColumnCompMethod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ModuleType="G7116B" xsdName="ColumnCompMethod.xsd" schemaVersion="1.0.4" schemaSI="1" ModuleOptions="">
+  <ConfigurationXml>&lt;ColumnCompConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsdName="SamplerConfig.xsd" schemaVersion="1.0.2" schemaSI="3"&gt;&lt;DisplayName&gt;Column Comp.&lt;/DisplayName&gt;&lt;SerialNumber&gt;DEBAZ00582&lt;/SerialNumber&gt;&lt;ModuleType&gt;G7116B&lt;/ModuleType&gt;&lt;ModuleDisplayType&gt;G7116B&lt;/ModuleDisplayType&gt;&lt;ConnectionInfo&gt;&lt;ConnectionType&gt;ConnectionType_IPAddress&lt;/ConnectionType&gt;&lt;IPAddress&gt;192.168.254.11&lt;/IPAddress&gt;&lt;/ConnectionInfo&gt;&lt;FirmwareRevision&gt;B.07.21 [0002]&lt;/FirmwareRevision&gt;&lt;FirmwareRevisionOfHostedModule&gt;C.07.20 [0002]&lt;/FirmwareRevisionOfHostedModule&gt;&lt;IsColumnSwitchingValveInstalled&gt;false&lt;/IsColumnSwitchingValveInstalled&gt;&lt;ColumnValveVersion&gt;Item18Port8Positions1300Bar&lt;/ColumnValveVersion&gt;&lt;RealHeadId&gt;5067-4233&lt;/RealHeadId&gt;&lt;TagReaderLeftInstalled&gt;false&lt;/TagReaderLeftInstalled&gt;&lt;TagReaderRightInstalled&gt;false&lt;/TagReaderRightInstalled&gt;&lt;PlumbingTable&gt;&lt;PlumbingTableType&gt;&lt;PlumbingTableRow&gt;&lt;PositionIndex&gt;0&lt;/PositionIndex&gt;&lt;ValvePosition&gt;0&lt;/ValvePosition&gt;&lt;ColorCode&gt;0&lt;/ColorCode&gt;&lt;LocationInColumnComp&gt;None&lt;/LocationInColumnComp&gt;&lt;/PlumbingTableRow&gt;&lt;/PlumbingTableType&gt;&lt;/PlumbingTable&gt;&lt;/ColumnCompConfig&gt;</ConfigurationXml>
+  <Timetable />
+  <StopTime>
+    <StopTimeMode>StopTime_NoLimit</StopTimeMode>
+  </StopTime>
+  <PostTime>
+    <PostTimeMode>PostTime_Off</PostTimeMode>
+  </PostTime>
+  <LeftTemperatureControl>
+    <TemperatureControlMode>TemperatureSet</TemperatureControlMode>
+    <Temperature>50</Temperature>
+    <NotReadyLimit>
+      <NotReadyLimitOn>true</NotReadyLimitOn>
+      <NotReadyLimitValue>0.8</NotReadyLimitValue>
+      <EquilibrationTime>0</EquilibrationTime>
+    </NotReadyLimit>
+    <TemperatureControlMode2>TemperatureSet</TemperatureControlMode2>
+  </LeftTemperatureControl>
+  <RightTemperatureControl>
+    <TemperatureControlMode>TemperatureSet</TemperatureControlMode>
+    <Temperature>50</Temperature>
+    <NotReadyLimit>
+      <NotReadyLimitOn>true</NotReadyLimitOn>
+      <NotReadyLimitValue>0.8</NotReadyLimitValue>
+      <EquilibrationTime>0</EquilibrationTime>
+    </NotReadyLimit>
+    <TemperatureControlMode2>TemperatureSet</TemperatureControlMode2>
+  </RightTemperatureControl>
+  <ReadyWhenFrontDoorOpen>false</ReadyWhenFrontDoorOpen>
+  <ValvePositionIndex>0</ValvePositionIndex>
+  <EnforceColumnInformation>
+    <ColumnType />
+    <EnforceColumnTypeOnInstrument>false</EnforceColumnTypeOnInstrument>
+  </EnforceColumnInformation>
+  <PositionSwitchAfterRunMode>DoNotSwitch</PositionSwitchAfterRunMode>
+</ColumnCompMethod>

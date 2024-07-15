@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--Voyager Method XML file-->
+<Properties>
+  <Version>B.05.00</Version>
+  <PreRunScript>
+    <ProjectName>MH_Acq_Scripts.exe</ProjectName>
+    <ProcedureName>SCP_CalibrantOff</ProcedureName>
+    <InParameter>
+    </InParameter>
+    <DisplayString>SCP_CalibrantOff(){MH_Acq_Scripts.exe}</DisplayString>
+  </PreRunScript>
+  <PostRunScript>
+    <ProjectName>
+    </ProjectName>
+    <ProcedureName>
+    </ProcedureName>
+    <InParameter>
+    </InParameter>
+    <DisplayString>
+    </DisplayString>
+  </PostRunScript>
+  <Description>Default Method</Description>
+  <EstimatedRunTime>12.7</EstimatedRunTime>
+</Properties>
