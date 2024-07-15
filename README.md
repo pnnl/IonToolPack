@@ -4,7 +4,7 @@
 IonToolPack is a software suite for housing tools for mass spectrometry. The first one is PeakQC, a software a tool for automated quality control (QC) of mass spectrometry (MS) data which is is omics-agnostic (works for any ion type, e.g.: metabolomics, lipidomics, proteomics, etc.), supports various instrument platforms and acquisition modes and has a simple graphical user interface.
 
 ## Usage
-1. Download the latest version (Release section, right panel) and uncompress it
+1. Download the latest version (Release section, right panel) and decompress it
 2. Double click IonToolPack.exe
 3. Import raw MS files and click “Process”
 4. See more details and examples in PeakQC_User-guide_*.pdf
