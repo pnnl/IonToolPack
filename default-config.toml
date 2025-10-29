@@ -1,0 +1,92 @@
+# Configuration file
+
+#--- Mirador
+# For single ion, Display:
+precursor_mz = 132.0302
+frags_mz = [71.015, 72.007, 88.04] # m/z values of fragments 
+frags_intensity = [9030, 1639, 33785] # intensity of fragments
+rt = 2.1
+at = 13.97
+ms_run_ids = [1, 3] 
+
+# For a list of ions, Export PDF:
+ion_targets = 'Ion-Targets.csv' # File name in output folder or with full path to the list of ion targets (e.g., 'C:/Myfolder/Ion-Targets.csv')
+
+mz_tolerance_halfwidth = 0.01 # Da, half-width of the m/z tolerance for matching and signal extraction
+mzrange = 0.75 # m/z range for figures, half window size of the view (+- center)
+rtrange = 0.3 # RT range for figures
+atrange = 1.5 # AT range for figures
+
+# MZA conversion:
+MinIntensityMza = 20
+# time-vs-mz images:
+TimeVsMzImageMinIntensityPercentage = 10
+TimeVsMzImageMaxIntensityCeilingPercentage = 70
+
+#--- PeakQC
+# List of precursor ions to be extracted for QC (optional)
+ion_targets = 'Ion-Targets.csv' # File name in output folder or with full path (e.g., 'C:/Myfolder/Ion-Targets.csv')
+
+mz_tolerance_halfwidth = 0.01 # Da, half-width of the m/z tolerance for matching and signal extraction
+precursor_mz_decimals = 5 # Number of decimal places to retain for precursor m/z values
+mzrange = 0.75 # Extraction m/z range, half window size of the view (+- center)
+rtrange = 0.3 # Extraction RT range
+atrange = 1.5 # Extraction AT range
+
+# Error thresholds for detection of outliers and outside tolerance
+mz_error_ppm = 15
+rt_error = 0.3
+at_error = 0.1
+abundance_error = 30 # Percentage absolute error, a percentage of the mean of the ion abundance applied as a threshold to report QC ions outside tolerances
+
+AutoTrackedIonsTopN = 4 # Number of auto-tracked ions to detect per sample group
+MinIntensityPresencePercentage = 80 # Intensity threshold presence/absence 
+
+MinMzDistDetectCentroidMS = 0.0005 # If distance between 2 consecutive points from the max intensity peak is smaller than this value then it is considered profile mode spectrum
+
+# MZA conversion:
+MinIntensityMza = 20
+# time-vs-mz images:
+TimeVsMzImageMinIntensityPercentage = 10
+TimeVsMzImageMaxIntensityCeilingPercentage = 70
+
+
+#--- TandemMatch
+# Reference MS/MS library in CSV or MSP:
+library = 'Ion-Targets.csv' # File name in output folder or full path (e.g., 'C:/Myfolder/ion_targets.csv')
+
+mz_tolerance_halfwidth = 0.01 # Da, half-width of the m/z matching window for precursor and fragments
+precursor_mz_decimals = 5 # Number of decimal places to retain for precursor m/z values
+min_fragments = 2 # Minimum number of fragments (MS/MS peaks) required to match a molecule. Use 2+ for a miningful score
+min_cosine_score = 0.7 # Minimum cosine score required for a matched molecule, best is 1.0
+consolidate_matches_by_precursor_mz = false # Use true to group matches by MZ and aggregate/concatenate all MOLECULE names in a new column ALLMOLECULES
+
+# TMT - remove '#' in parameters below to process TMT data:
+#precursor_mass_tag = 304.207145 # Tag to add as mass shift to precursor m/z in library: TMTpro=304.207145 and TMT10=229.162932
+#tmt_reporter_fragments_csv = 'ReporterFragmentsTMTpro.tsv' # File name with full path, columns 'NAME' and 'MZ' must define TMT fragments, e.g. values f01_126C, 126.12776
+
+
+#--- PeakQuant
+# Precursor ions with m/z to be extracted from the MS1 spectra:
+ion_targets = 'Ion-Targets.csv' # File name in output folder or with full path (e.g., 'C:/Myfolder/Ion-Targets.csv')
+
+mz_tolerance_halfwidth = 0.01 # Da, half-width of the m/z window for signal extraction
+precursor_mz_decimals = 5 # Number of decimal places to retain for precursor m/z values
+
+
+#--- CompareFeatures
+# Folder where CSV files with lists of features are:
+folder_lists_features = 'E:\IonToolPack\code\test_data\Lists-Features' # Full path (e.g., 'C:/MyListsOfFeatures/')
+
+delimiters_method_file_name = '__(.*?)__' # Delimiters (regex) to extract the method name between parentheses from the CSV file names (e.g., '20CE' from file name 'features__20CE__.csv')
+mz_tolerance = 0.005 # Da, half-width of the m/z tolerance
+rt_tolerance = 0.3
+at_tolerance = 0.1
+
+# Aliases of column names to harmonize outputs from different feature detection tools:
+mz_column_names = ['m/z', 'mz', 'm.z', 'MZTARGET']
+rt_column_names = ['RT', 'RetentionTime']
+at_column_names = ['AT', 'DT', 'CCS']
+abundance_column_names = ['Intensity', 'Abundance']
+molecule_column_names = ['Sequence', 'Peptide', 'Molecule']
+

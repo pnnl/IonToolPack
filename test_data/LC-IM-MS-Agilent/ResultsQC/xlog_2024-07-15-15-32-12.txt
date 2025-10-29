@@ -1,2 +1,0 @@
-Total Execution Time: 9.08 minutes
-Number of MS runs: 8
