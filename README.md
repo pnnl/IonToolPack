@@ -8,11 +8,11 @@
 IonToolPack is a software suite housing tools for mass spectrometry data. It reads data from multiple instrument formats, requires no installation and provides omics agnostic functionalities (metabolomics, lipidomics, proteomics, etc.) through a simplified and intuitive GUI.
 
 **Available Features (New GUI with tabs per tool):**
-- **Mirador**: Interactive data visualization including extracted ion chromatograms (XIC), extracted ion mobility (XIM) heatmaps, and MS/MS mirror plots with customizable m/z, RT, and arrival time ranges and tolerances
-- **PeakQC**: Automated quality control pipeline with PCA analysis, outlier detection and comprehensive metrics extraction for either user specified ion targets or auto-tracked ions  
-- **TandemMatch**: MS/MS spectral library matching with support for MSP and CSV library formats
-- **PeakQuant**: Targeted MS1 peak abundance extraction for quantitation
-- **CompareFeatures**: Cross-platform feature comparison tool for harmonizing and analyzing results (CSV files) from different acquisition methods or processing software
+- **Mirador**: Raw MS data visualization and export (PDF, CSV) including extracted ion chromatograms (XIC), extracted ion mobility (XIM) heatmaps, and MS/MS mirror plots with customizable m/z, RT, and arrival time ranges and tolerances.
+- **PeakQC**: Automated quality control pipeline by PCA analysis on MS1 data for global quality assessment, and detailed assessment with comprehensive metrics extraction and outlier detection for either user specified ion targets or auto-tracked ions. 
+- **TandemMatch**: MS/MS spectral library matching with support for MSP and CSV library formats.
+- **PeakQuant**: Targeted MS1 peak abundance extraction for quantitation.
+- **Comparador**: Tool to compare lists of features (CSV files) from different acquisition methods or processing software, by harmonizing and analyzing results.
 
 
 ## Usage

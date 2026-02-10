@@ -1,0 +1,37 @@
+folder_lists_features = "E:/IonToolPack/code/test_data/Lists-Features"
+delimiter_method_file_name = "__"
+mz_tolerance = 0.005
+rt_tolerance = 0.3
+at_tolerance = 0.1
+mz_column_names = [
+    "m/z",
+    "mz",
+    "m.z",
+    "MZ",
+    "Precursor m/z",
+]
+rt_column_names = [
+    "RT",
+    "RetentionTime",
+    "RT (min)",
+]
+at_column_names = [
+    "AT",
+    "DT",
+    "Mobility",
+    "CCS",
+]
+abundance_column_names = [
+    "Intensity",
+    "Abundance",
+    "Area",
+    "Abund",
+]
+molecule_column_names = [
+    "Sequence",
+    "Peptide",
+    "Molecule",
+    "MOLECULE",
+    "Title",
+]
+cpu_fraction_multiprocessing = 0.7
